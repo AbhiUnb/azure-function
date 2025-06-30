@@ -1,0 +1,7 @@
+--- FAIL: TestAzureFunctionApp (1.22s)
+    --- PASS: TestAzureFunctionApp/ValidateFunctionAppExistence (0.00s)
+    --- PASS: TestAzureFunctionApp/ValidateHostingPlanSKU (0.11s)
+    --- PASS: TestAzureFunctionApp/ValidateDeploymentSource (0.11s)
+    --- FAIL: TestAzureFunctionApp/ValidateAppSettings (0.22s)
+    --- PASS: TestAzureFunctionApp/ValidateTriggerBehavior (0.04s)
+    --- FAIL: TestAzureFunctionApp/ValidateAppInsightsIntegration (0.11s)
