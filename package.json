@@ -1,16 +1,21 @@
 {
-  "name": "",
+  "name": "my-node-function",
   "version": "1.0.0",
   "description": "",
-  "main": "src/functions/*.js",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"No tests yet...\"",
+    "build": "echo \"No build step for this function app.\"",
+    "deploy": "func azure functionapp publish MF-MDI-CC-GHPROD-DDDS-AFUNCie"
   },
   "dependencies": {
     "@azure/functions": "^4.0.0"
   },
   "devDependencies": {
     "azure-functions-core-tools": "^4.x"
-  }
+  },
+  "author": "Abhinav Singh",
+  "license": "MIT"
 }

@@ -1,4 +1,4 @@
-const { app } = require('@azure/functions');
+import { app } from '@azure/functions';
 
 app.http('HttpExample', {
     methods: ['GET', 'POST'],
@@ -11,3 +11,4 @@ app.http('HttpExample', {
         return { body: `Hello, ${name}!` };
     }
 });
+export default app;
